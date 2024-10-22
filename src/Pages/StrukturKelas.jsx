@@ -18,7 +18,7 @@ const StrukturKelas = () => {
 		<div className="z-1 relative h-auto lg:overflow-hidden">
 			{/* wali kelas */}
 			<div data-aos="fade-up" data-aos-duration="500" className="mt-14 md:mt-10">
-				<BorderStruktur Jabatan="Wali Kelas" Nama="Sir Adi Kurniawan S.Pdi" Width="150px" />
+				<BorderStruktur Jabatan="Wali Kelas" Nama="Sir Adi Kurniawan S.Pd" Width="150px" />
 			</div>
 			<div className="flex flex-col justify-center items-center">
 				<img src="LineVertikal.svg" alt="" data-aos="fade-up" data-aos-duration="550" />
@@ -74,6 +74,8 @@ const StrukturKelas = () => {
 					<img src="LineHorizontalPendek.svg" className="relative top-3 hidden lg:flex" />
 					<div className="relative right-[0.2rem]">
 						<BorderStruktur Jabatan="Wakil Ketua" Nama="Gebran" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Daktau sape satuny" Width="120px" />					
 					</div>
 				</div>
 
@@ -130,13 +132,13 @@ const StrukturKelas = () => {
 					<div className="flex-col">
 						<BorderStruktur Jabatan="Sekertaris" Nama="Valiant" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Anggun" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Dak tau Sape yang betine" Width="120px" />
 					</div>
 
 					<div className="flex-col">
 						<BorderStruktur Jabatan="Bendahara" Nama="Masayu" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Naura" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Dak tau satunye" Width="120px" />
 					</div>
 				</div>
 
@@ -144,7 +146,7 @@ const StrukturKelas = () => {
 					<img src="LineVertikal3.svg" alt="" />
 				</div>
 
-				{/* Our Member */}
+				{/* Batas */}
 				<div className="lg:flex">
 					<img
 						src="LineHorizontal.svg"
@@ -198,25 +200,25 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Abdurahman Bagas" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Bagas" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Anjas Marselino" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Aden" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Aden Fathul" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Andea" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Fabian Dwitya" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Anggun" Width="120px" />
 					</div>
 
 					<div className="flex-col hidden lg:flex">
-						<BorderStruktur Jabatan="" Nama="M.Ikhsan" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Anjas" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="M.Rafi" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Azzahrah" Width="120px" />
 					</div>
 				</div>
 
-				{/* Kesehatan */}
+				{/* Batas */}
 				<div className="lg:flex">
 					<img
 						src="LineHorizontal.svg"
@@ -262,15 +264,15 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Simbolon" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Chalistah" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Ardiansyah" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Dinda" Width="120px" />
 					</div>
 				</div>
 
-				{/* peralatan */}
+				{/* Batas */}
 				<div className="lg:flex">
 					<img
 						src="LineHorizontal.svg"
@@ -315,11 +317,11 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="M.Fatir" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Fabian" Width="120px" />
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Valiant" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Fairuz" Width="120px" />
 					</div>
 				</div>
 
@@ -330,11 +332,279 @@ const StrukturKelas = () => {
 						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
 						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
 						<div className="relative bottom-3">
-							<BorderStruktur Jabatan="" Nama="Gebran" Width="120px" />
+							<BorderStruktur Jabatan="" Nama="Fiana" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Khumairah" Width="120px" />
 						</div>
 					</div>
 				</div>
 
+                {/* Batas */}
+				<div className="lg:flex">
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem]"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+				</div>
+
+				<div
+					className="flex gap-[10.6rem] lg:gap-[35.6rem] relative top-[-17.85rem]"
+					data-aos="fade-up"
+					data-aos-duration="800">
+					<img src="LineKananKiri.svg" alt="" />
+					<img src="LineKananKiri.svg" alt="" />
+				</div>
+				<div
+					className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[35.6rem]"
+					data-aos="fade-up"
+					data-aos-duration="1000">
+					<img src="Circle.svg" alt="" />
+					<img src="Circle.svg" alt="" />
+				</div>
+
+				<div
+					className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[29.7rem]"
+					data-aos="fade-up"
+					data-aos-duration="1100">
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Kiara" Width="120px" />
+					</div>
+
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Nadine" Width="120px" />
+					</div>
+				</div>
+
+				<div className=" absolute bottom-[15%] lg:bottom-[20%] " data-aos="fade-up" data-aos-duration="1000">
+					<div className="flex justify-center items-center flex-col">
+						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
+						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
+						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
+						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
+						<div className="relative bottom-3">
+							<BorderStruktur Jabatan="" Nama="M.Ikhsan" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="M.Rafi" Width="120px" />
+						</div>
+					</div>
+				</div>
+				{/* Batas */}
+				<div className="lg:flex">
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem]"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+				</div>
+
+				<div
+					className="flex gap-[10.6rem] lg:gap-[35.6rem] relative top-[-17.85rem]"
+					data-aos="fade-up"
+					data-aos-duration="800">
+					<img src="LineKananKiri.svg" alt="" />
+					<img src="LineKananKiri.svg" alt="" />
+				</div>
+				<div
+					className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[35.6rem]"
+					data-aos="fade-up"
+					data-aos-duration="1000">
+					<img src="Circle.svg" alt="" />
+					<img src="Circle.svg" alt="" />
+				</div>
+
+				<div
+					className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[29.7rem]"
+					data-aos="fade-up"
+					data-aos-duration="1100">
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="M.Ardi" Width="120px" />
+					</div>
+
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="M.Fatir" Width="120px" />
+					</div>
+				</div>
+
+				<div className=" absolute bottom-[15%] lg:bottom-[20%] " data-aos="fade-up" data-aos-duration="1000">
+					<div className="flex justify-center items-center flex-col">
+						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
+						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
+						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
+						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
+						<div className="relative bottom-3">
+							<BorderStruktur Jabatan="" Nama="Naurah" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Nova" Width="120px" />
+						</div>
+					</div>
+				</div>
+				
+				{/* Batas */}
+				<div className="lg:flex">
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem]"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+				</div>
+
+				<div
+					className="flex gap-[10.6rem] lg:gap-[35.6rem] relative top-[-17.85rem]"
+					data-aos="fade-up"
+					data-aos-duration="800">
+					<img src="LineKananKiri.svg" alt="" />
+					<img src="LineKananKiri.svg" alt="" />
+				</div>
+				<div
+					className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[35.6rem]"
+					data-aos="fade-up"
+					data-aos-duration="1000">
+					<img src="Circle.svg" alt="" />
+					<img src="Circle.svg" alt="" />
+				</div>
+
+				<div
+					className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[29.7rem]"
+					data-aos="fade-up"
+					data-aos-duration="1100">
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Raisyah" Width="120px" />
+					</div>
+
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Ratie" Width="120px" />
+					</div>
+				</div>
+
+				<div className=" absolute bottom-[15%] lg:bottom-[20%] " data-aos="fade-up" data-aos-duration="1000">
+					<div className="flex justify-center items-center flex-col">
+						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
+						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
+						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
+						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
+						<div className="relative bottom-3">
+							<BorderStruktur Jabatan="" Nama="Salman" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Sekar" Width="120px" />
+						</div>
+					</div>
+				</div>
+				
+			    {/* Batas */}
+				<div className="lg:flex">
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem]"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+					<img
+						src="LineHorizontal.svg"
+						alt=""
+						className="relative top-[-16.9rem] hidden lg:flex"
+						data-aos="fade-up"
+						data-aos-duration="600"
+					/>
+				</div>
+
+				<div
+					className="flex gap-[10.6rem] lg:gap-[35.6rem] relative top-[-17.85rem]"
+					data-aos="fade-up"
+					data-aos-duration="800">
+					<img src="LineKananKiri.svg" alt="" />
+					<img src="LineKananKiri.svg" alt="" />
+				</div>
+				<div
+					className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[35.6rem]"
+					data-aos="fade-up"
+					data-aos-duration="1000">
+					<img src="Circle.svg" alt="" />
+					<img src="Circle.svg" alt="" />
+				</div>
+
+				<div
+					className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[29.7rem]"
+					data-aos="fade-up"
+					data-aos-duration="1100">
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Seril" Width="120px" />
+					</div>
+
+					<div className="flex-col">
+						<BorderStruktur Jabatan="" Nama="Sinta" Width="120px" />
+					</div>
+				</div>
+
+				<div className=" absolute bottom-[15%] lg:bottom-[20%] " data-aos="fade-up" data-aos-duration="1000">
+					<div className="flex justify-center items-center flex-col">
+						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
+						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
+						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
+						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
+						<div className="relative bottom-3">
+							<BorderStruktur Jabatan="" Nama="Satria" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Yeyen" Width="120px" />
+						</div>
+					</div>
+				</div>
 				{/* Kesehatan */}
 				{/* 	<div
 					className=" absolute bottom-[14.5%] lg:hidden"
