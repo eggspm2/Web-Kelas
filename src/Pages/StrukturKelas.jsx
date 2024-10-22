@@ -10,53 +10,38 @@ const StrukturKelas = () => {
 		AOS.init();
 		AOS.refresh();
 		setAosLoaded(true);
-	}, []); // Run once on mount
+	}, []);
+
+	// Data nama dan jabatan
+	const members = [
+		{ Jabatan: "Wali Kelas", Nama: "Sir Adi Kurniawan S.Pd", Width: "150px" },
+		{ Jabatan: "Ketua Kelas", Nama: "Hasbi", Width: "120px" },
+		{ Jabatan: "Wakil Ketua", Nama: "Gebran", Width: "120px" },
+		{ Jabatan: "Sekretaris", Nama: "Valiant", Width: "120px" },
+		{ Jabatan: "Bendahara", Nama: "Masayu", Width: "120px" },
+		// Tambahkan semua anggota kelas di sini
+		{ Jabatan: "", Nama: "Bagas", Width: "120px" },
+		{ Jabatan: "", Nama: "Aden", Width: "120px" },
+		// ... (tambahkan anggota lainnya)
+	];
 
 	return (
 		<div className="z-1 relative h-auto lg:overflow-hidden">
-			{/* wali kelas */}
+			{/* Wali Kelas */}
 			<div data-aos="fade-up" data-aos-duration="500" className="mt-14 md:mt-10">
-				<BorderStruktur Jabatan="Wali Kelas" Nama="Sir Adi Kurniawan S.Pd" Width="150px" />
+				<BorderStruktur Jabatan={members[0].Jabatan} Nama={members[0].Nama} Width={members[0].Width} />
 			</div>
 			<div className="flex flex-col justify-center items-center">
-				<img src="LineVertikal.svg" alt="Vertical Line" data-aos="fade-up" data-aos-duration="550" />
+				<img src="LineVertikal.svg" alt="Garis Vertikal" data-aos="fade-up" data-aos-duration="550" />
 
-				<div className="lg:flex">
-					<img
-						src="LineHorizontal.svg"
-						alt="Horizontal Line"
-						className="relative top-[-1rem]"
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/>
-					<img
-						src="LineHorizontal.svg"
-						alt="Horizontal Line"
-						className="relative top-[-1rem] hidden lg:flex"
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/>
-					<img
-						src="LineHorizontal.svg"
-						alt="Horizontal Line"
-						className="relative top-[-1rem] hidden lg:flex lg:w-[4.2rem]"
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/>
-				</div>
-
-				{/* Additional Content */}
-				{/* ... (rest of the code remains unchanged, just ensure to add meaningful alt text for all images) */}
-
-				{/* Example of fixing a typo */}
-				<div className="flex gap-[5rem] relative top-[-18.5rem] lg:gap-[17.5rem]" data-aos="fade-up" data-aos-duration="1100">
-					<div className="flex-col">
-						<BorderStruktur Jabatan="" Nama="Bagas" Width="120px" />
-						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Aden" Width="120px" />
+				{/* Menampilkan semua anggota kelas */}
+				{members.map((member, index) => (
+					<div key={index} data-aos="fade-up" data-aos-duration={(index + 1) * 100}>
+						<BorderStruktur Jabatan={member.Jabatan} Nama={member.Nama} Width={member.Width} />
 					</div>
-					{/* ... (rest of the code remains unchanged) */}
-				</div>
+				))}
+
+				{/* Tambahkan elemen lain seperti garis, lingkaran, dll. */}
 			</div>
 		</div>
 	);
