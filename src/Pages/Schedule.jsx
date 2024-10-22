@@ -21,11 +21,11 @@ const Schedule = () => {
 
     // Menentukan kelompok piket berdasarkan hari
     piketGroup = [
-        ["Amel", "Helmalia", "Fadli I", "Shera", "Nicollas"],
-        ["Windi", "Lista", "Jeriko", "Pratiwi", "Damar"],
-        ["Putri", "Paulista", "Firdaus", "Attala", "Ardian"],
-        ["Cariska", "Nila", "Wahid", "Togi", "Annisa"],
-        ["Sultan", "Zaini", "Fajri", "Arif"],
+        ["Bagas", "Rafi", "Ayu", "Naura", "Khumai", "Azzahrah", "Valiant"],
+        ["Kiara", "Anggun", "Sekar", "Ratie", "Aden", "Fatir"],
+        ["Raisya", "Fabian", "Dinda", "Andea", "Ikhsan", "Fei"],
+        ["Sinta", "Anjas", "Seril", "Salman", "Yeyen", "Nova"],
+        ["Ana", "Ardi", "Satria", "Nadin", "Chalista", "Hasbi", "Gebran"],
     ]
 
     const dayComponents = [
