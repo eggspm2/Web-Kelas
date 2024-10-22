@@ -211,73 +211,73 @@ const StrukturKelas = () => {
 						<BorderStruktur Jabatan="" Nama="Anggun" Width="120px" />
 					</div>
 
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Anjas" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Azzahrah" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Chalista" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Dinda" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Fabian" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Fairuz" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Fiana" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Khumai" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Kiara" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Nadine" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="M.ikhsan" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="M.rafi" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="M.Ardi" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="M.Fatir" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Naurah" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Nova" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Raisya" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Ratie" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Salman" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Sekar" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Seril" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Sinta" Width="120px" />
 					</div>
 					
-					<div className="flex-col hidden lg:flex">
+					<div className="flex-col">
 						<BorderStruktur Jabatan="" Nama="Simbolon" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Yeyen" Width="120px" />
