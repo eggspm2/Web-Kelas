@@ -1,4 +1,4 @@
-// Import the functions you need from the SDKs you need
+1// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore"
@@ -6,14 +6,13 @@ import { getFirestore } from "firebase/firestore"
 import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmUIXJblRGF4HTCO3hOB8MykvLOq7whUE",
-  authDomain: "project-web-kelas.firebaseapp.com",
-  projectId: "project-web-kelas",
-  storageBucket: "project-web-kelas.appspot.com",
-  messagingSenderId: "202691312352", 
-  appId: "1:202691312352:web:e82e7a494e705b2a12ee85"
-
-
+  apiKey: "AIzaSyBMc1163SnWq69IwYXvHAOy4fq0SDInHxU",
+  authDomain: "litevi-class.firebaseapp.com",
+  projectId: "litevi-class",
+  storageBucket: "litevi-class.appspot.com",
+  messagingSenderId: "1085526705072",
+  appId: "1:1085526705072:web:e837b9a2dc3bd69e008c75",
+  measurementId: "G-RXPS99HK2J"
 };
 
 // Initialize Firebase
