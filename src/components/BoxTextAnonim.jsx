@@ -60,50 +60,6 @@ Fade.propTypes = {
 } */
 
 export default function BoxTextAnonim() {
-	const [open, setOpen] = React.useState(false)
-	const handleOpen = () => setOpen(true)
-	const handleClose = () => setOpen(false)
-
-	return (
-		<div>
-			<div onClick={handleOpen}  >
-				<div  id="BoxTextAnonim">
-					<div className="flex justify-between">
-						<img src="/paper-plane.png" alt="" className="w-auto h-6" />
-						<img src="/next.png" alt="" className="h-3 w-3" />
-					</div>
-					<h1 className="capitalize text-white text-left pr-5 text-base font-semibold  mt-5">Text Anonim</h1>
-				</div>
-			</div>
-
-			<Modal
-				aria-labelledby="spring-modal-title"
-				aria-describedby="spring-modal-description"
-				open={open}
-				onClose={handleClose}
-				closeAfterTransition
-				slots={{ backdrop: Backdrop }}
-				slotProps={{
-					backdrop: {
-						TransitionComponent: Fade,
-					},
-				}}>
-				<Fade in={open}>
-					<Box className="" id="modal-container-chat">
-						{/* Tambahkan tombol silang di kanan atas */}
-						<Button onClick={handleClose} style={{ position: "absolute", top: "2%", right: "0" , color: "white",opacity: "70%"}}>
-							<CloseIcon />
-						</Button>
-						{/* <Typography id="spring-modal-title" variant="h6" component="h2">
-							Text in a modal
-						</Typography> */}
-						<Typography id="spring-modal-description" sx={{ mt: 3 }}>
-							<Chat/>
-						</Typography>
-					</Box>
-				</Fade>
-			</Modal>
-		</div>
-	)
+	https://www5.cbox.ws/box/?boxid=953982&boxtag=aSJK4A
 }
 
